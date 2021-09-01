@@ -11,7 +11,7 @@ if (isset($_REQUEST['token'])) {
         require_once __DIR__ . "/../controle/PagSeguro.php";
         $objPagSeguro = new PagSeguro();
 
-        $objPagSeguro->criarPlano();
+        //$objPagSeguro->criarPlano();
     } else {
         echo '<b style="color: red;">Token não informado</b>';
     }
